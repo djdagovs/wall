@@ -33,7 +33,7 @@
           <img src="img/coats.png" class="img-responsive">
       </div>
       
-        <h4 class="media-heading"><b>Some text here</b></h4>
+        <h4 class="media-heading"><b>Some</b></h4>
         <p>Thermal insulation system is one of the most important elements of the building. The choice of the system and its proper performance affect not only the durability of the façade but also comfort and the quality of life of the building inhabitants and energy efficiency of the investment. Insulation layer protects building material from immediate influence of environment and thus extends the lifespan of the buildings. ETICS systems are described as seamless which means that a continuous protective layer is formed on their surface. The layer constitutes substrate for thin-layer plaster coating. This form of decoration enbles excellent and effective protection of thermal insulation layer against corrosive processes caused by penetration of water and sunlight. Our systems: ETICS MAJSTER-POL and MAJSTER-POL MINERAL are comprehensive solutions in the scope of thermal insulation systems. We produce all components of the systems ourselves and subject them to continuous monitoring to ensure optimal quality parameters.</p>
       </div>
       </div>
