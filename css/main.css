@@ -1,0 +1,94 @@
+html{
+	overflow:scroll;	
+}
+
+body{
+	background: #fafafa;
+	font-family: 'Lato', sans-serif;
+}
+
+
+.logo{
+	margin-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 4px solid #0c90d0;
+}
+
+ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	text-align: center;
+	
+}
+
+li {
+	display:inline-block;
+	margin-right: 1px;
+}
+
+li a {
+	display:block;
+	text-align: center;
+	color: #0c90d0;
+	text-decoration: none;
+	padding: 10px;
+}
+
+li a:hover {
+	background: #0c90d0;
+	color:#fff;
+	text-decoration: none;
+	padding:10px;
+	
+}
+
+li a:active{
+	text-decoration: none;
+	color:#fff;
+}
+
+
+
+.show-menu {
+	text-decoration: none;
+	color: #fff;
+	background: #0c90d0;
+	text-align: center;
+	padding: 10px 0;
+	display: none;
+}
+
+input[type=checkbox]{
+    display: none;
+}
+
+/*Show menu when invisible checkbox is checked*/
+input[type=checkbox]:checked ~ #menu{
+    display: block;
+}
+
+@media screen and (max-width : 760px){
+	/*Make dropdown links appear inline*/
+	ul {
+		
+		display: none;
+	}
+	/*Create vertical spacing*/
+	li {
+		margin-bottom: 1px;
+	}
+	/*Make all menu links full width*/
+	ul li, li a {
+		width: 100%;
+	}
+	/*Display 'show menu' link*/
+	.show-menu {
+		display:block;
+	}
+}
+
+.block-centered{
+	text-align: center;
+	padding-bottom: 20px;
+}
