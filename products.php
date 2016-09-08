@@ -6,8 +6,11 @@
     	<div class="row">
 
     	<div class="col-md-12">
+
+    	<!-- add subcategory if category contains any -->
+
     	<?php
-    		if(10 > 5){
+    		if(10 < 5){
     			echo "<ol class='breadcrumb text-center'>
   <li><a href='#'>10mm</a></li>
   <li><a href='#'>20mm</a></li>
