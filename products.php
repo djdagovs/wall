@@ -8,8 +8,12 @@
     	<div class="col-md-12">
     	<?php
     		if(10 > 5){
-    			echo "<ol class='breadcrumb'>
-  <li><a href='#'>Home</a></li>";
+    			echo "<ol class='breadcrumb text-center'>
+  <li><a href='#'>10mm</a></li>
+  <li><a href='#'>20mm</a></li>
+  <li><a href='#'>30mm</a></li>
+  <li><a href='#'>50mm</a></li>
+  <li><a href='#'>100mm</a></li>";
     		}else{
     			echo "";
     		}
