@@ -2,13 +2,29 @@
 <?php include 'inc/nav.html'; ?>
 <?php include 'core/functions.php';?>
 		<hr>
-		<div class="row block-centered">
-		<div class="btn-group" role="group" aria-label="...">
-		  <?php show_cat_btn(); ?>
-		</div>
-		</div>
+		
     	<div class="row">
-		<div class='col-md-6 col-sm-6 col-xs-12'>
+
+    	<div class="col-md-12">
+    	<?php
+    		if(10 > 5){
+    			echo "<ol class='breadcrumb'>
+  <li><a href='#'>Home</a></li>";
+    		}else{
+    			echo "";
+    		}
+    	?>
+    	</div>
+
+    	<div class="col-md-2 col-sm-12">
+    		
+    		<div class="list-group">
+    			<?php show_cat_btn(); ?>
+			</div>
+
+    	</div>
+    	
+		<div class='col-md-5 col-sm-6 col-xs-12'>
 			
 			    <a href="#"><img  class='img-responsive center-block' src="http://majsterpol.eu/media/djcatalog2/images/item/0/silicone-plaster_f.png" width="400" height="400"></a>
 			    <hr>
@@ -17,7 +33,7 @@
 			
 		</div>
 
-		<div class='col-md-6 col-sm-6 col-xs-12'>
+		<div class='col-md-5 col-sm-6 col-xs-12'>
 			
 			   <a href="#"><img class='img-responsive center-block' src="http://majsterpol.eu/media/djcatalog2/images/item/0/sisi-plaster_f.png" width="400" height="400"></a>
 			   <hr>
