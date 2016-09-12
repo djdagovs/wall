@@ -10,7 +10,9 @@
     	<!-- add subcategory if category contains any -->
 
     	<?php
-    		if(10 < 5){
+        $zmienna = ""; //test jeżeli $zmienna jest pusta wyświetla if'a
+
+    		if(empty($zmienna)){
     			echo "<ol class='breadcrumb text-center'>
   <li><a href='#'>10mm</a></li>
   <li><a href='#'>20mm</a></li>
